@@ -1,0 +1,186 @@
+.firstCon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    text-decoration: none;
+    font-family: Roboto;
+    background-color: beige;
+    color: black;
+  }
+  .secondCon{
+    display: flex;
+    width: 98%;
+    padding: 23px;
+    min-height:95vh;
+    justify-content: space-around;
+  }
+  .leftCon{
+    min-height: 95vh;
+    background-color: black;
+    width: 15%;
+    border-radius: 24px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 23px;
+  }
+  .leftuppercon{
+    min-height: 100vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+  }
+  .selectors{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom:23px;
+  }
+  .selectorIcon{
+    width: 35%;
+    display: flex;
+    font-size: 23px;
+    justify-content: center;
+  }
+  .selectorName{
+    width:64%;
+    font-weight: 100;
+    font-size: 18px;
+    font-family: Montserrat;
+  }
+  
+  .lowerDiv{
+    margin-left: 40px;
+  }.rightCon{
+    min-width: 80%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 13px;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .DashboardCon{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    height: 5vh;
+  }
+  .dashright{
+    display: flex;
+    align-items: center;
+  }
+  .forinputCon{
+    display: flex;
+    align-items: center;
+      background-color: white; 
+      height:100%;
+      width:200px;
+      margin-right: 13px;
+      border-radius: 10px;
+  }.input{
+    border-radius: 5px;
+    border-width: 0px;
+    padding-left: 8px;
+    color: #858585;
+    outline: none;
+  }
+  .noti{
+    font-size: 24px;
+    margin-right: 13px;
+  }.CardsCon{
+    display: flex;
+    width: 100%;
+    
+    align-items: center;
+    height: 18vh;
+    margin: 13px;
+    font-size: 18px;
+  }
+  .card{
+    width: 20%;
+    border-radius: 13px;
+    height: 100%;
+    padding: 4px 0px 0px 9px;
+    font-size: 13px;
+    font-weight: 700;
+    margin:23px
+  }
+  .cardlogo{
+    display: flex;
+    width: 90%;
+    
+    height: 5vh;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 19px;
+  }.bg1{
+    background-color: wheat;
+  }
+  .bg2{
+    background-color: powderblue;
+  }
+  .bg3{
+    background-color: pink;
+  }
+  .bg4{
+    background-color: palegreen;
+  }
+  .LineChart{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 55vh;
+  
+    background-color: white;
+    
+    border-radius: 13px;
+  }
+  .LastRowCon{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .TopProducts{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: white;
+    border-radius: 13px;
+    margin: 13px;
+  }.headingoftoppro{
+    display: flex;
+    justify-content: space-between;
+    margin:0px 13px 0px 13px ;
+  }
+  .date{
+    width: 20%;
+    border-width: 0px;
+  }.schudecard{
+    font-size: 10px;
+     border-style: solid;
+    border-width: 0px 0px 0px 4px;
+    padding-left: 13px;
+    margin-bottom: 5px;
+    
+  }.bc1{
+    border-color: aquamarine;
+  }
+  .bc2{
+    border-color: orangered;
+  }
+  .lowerConscedule{
+    display: flex;
+    color: grey;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 34px;
+  }

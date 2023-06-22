@@ -1,0 +1,8 @@
+.graph{
+    display: flex;
+    flex-direction: column;
+    width:90%;
+    padding-right: 23px;
+}.heading{
+    margin-left: 13px;
+}
