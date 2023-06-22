@@ -16,6 +16,7 @@ import './index.css'
 class Board extends Component{
 
     render(){
+        const {username}=this.props
         return (
             <div className='firstCon'>
               <div className='secondCon'>
@@ -36,7 +37,7 @@ class Board extends Component{
               <div className='rightCon'>
                 
                 <div className='DashboardCon'>
-                  <div className='dashleft'><h1>Dashboard</h1></div>
+                  <div className='dashleft'><h1>Dashboard of {username}</h1></div>
                   <div className='dashright'>
                     <div className='forinputCon'><input type="input" className='input' placeholder='Search'/><AiOutlineSearch/></div>
                     <IoIosNotificationsOutline className='noti'/>
