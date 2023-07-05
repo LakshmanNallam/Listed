@@ -15,7 +15,7 @@ class App extends Component{
     <div className='firstCon'>
       {username===undefined?
       <div className='seccon'>
-        <div className='boardCon'><h1>Board.</h1></div>
+        <div className='boardCon'><h1>Board..</h1></div>
         <div className='SignInCon'>
           <div className='signsubcon'>
             <h1>Sign In</h1>
